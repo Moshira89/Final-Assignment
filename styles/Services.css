@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    height: 100vh;
+}  
+
+body { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header {
+    background-color: #e2e2e2;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    align-items: center;
+
+}
+
+
+.main {
+    text-decoration: none;
+    color: #01040e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navigation a {
+    color: #01040c;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a {
+    color: #02040c;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #02040c;
+}
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 30px;
+   
+}
+
+.social-icons:hover {
+    transform: scale(0.85);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 3rem;
+    margin: 0;
+}
+
+.contect {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #afaaaa;
+    width: 340px;
+    box-shadow: 0 16px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 60px;
+    margin: 60px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 16px;
+}
