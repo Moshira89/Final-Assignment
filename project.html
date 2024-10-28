@@ -6,35 +6,33 @@
     <title>Moshira</title>
     <link rel="stylesheet" href="./styles/project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/services.css">
 </head>
 <body>
     <header class="header">
-        <h2>
-        <a class="main" href="#">project</a>  
-        </h2>
-        <nav class="navigation">
-           <a href="services.html">Services</a>
-           <a href="project.html">Project</a>
-           <a href="index.html">Home</a>
-        </nav>
-     </header>
-    <section class="container" id="project">
-        <div>
-        
-            <div class="row">
-                <img src="./styles/images/mail.jpg" alt="Get In Touch">
-                <form action="mailto: someone@gmail.com"  enctype="text/plain" method="POST" class="user__form">
-                    <input type="text" name=" your Name" id=" user Name" placeholder=" user_Name" required>
-                    <input type="email" name=" your Email" id=" user Email" placeholder=" your_Email" required>
-                    <textarea name=" your Message" id="Message" cols="30" rows="10" placeholder="message">
-                    </textarea>
+        <h1>Form</h1>
+    </header>
+    <main class="container">
+        <section class="nav-section">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul> 
+            </nav>
+        </section>
+        <section class="content-container">
+            <article class="content">
+                <form action="mailto:someone@gmail.com" enctype="text/plain" method="POST" class="user__form">
+                    <input type="text" name="yourName" id="userName" placeholder="User Name" required>
+                    <input type="email" name="yourEmail" id="userEmail" placeholder="Your Email" required>
+                    <textarea name="yourMessage" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
                     <button type="submit" class="btn-primary">Submit</button>
                 </form>
-            </div>
-        </div>
-    </section>
-    
+            </article>
+        </section>
+    </main>
 </body>
 </html>
