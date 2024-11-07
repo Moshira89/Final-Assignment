@@ -49,6 +49,7 @@ body {
 
 .main-menu ul li {
     margin-bottom: 1rem;
+    padding: 20px;
 }
 
 .main-menu ul li a {
