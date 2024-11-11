@@ -28,7 +28,7 @@ html, body {
 /* Sidebar */
 .sidebar {
     position: fixed;
-    top: 0;
+    top: 110;
     left: 0;
     width: 200px;
     height: 100vh;
@@ -132,7 +132,7 @@ html, body {
         width: 100%;
         height: auto;
         position: static;
-        padding: 10px 0;
+        padding: 8px ;
     }
 
     .menu ul {
@@ -175,7 +175,7 @@ html, body {
     }
 
     .sidebar {
-        padding-top: 10px 0;
+        padding-top: 10px;
     }
 
     .main-content {
