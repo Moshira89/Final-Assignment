@@ -1,14 +1,53 @@
-/* index.css - Page specific styles for index page */
-
-/* Add page-specific styles if necessary */
-.content-container {
-    padding: 20px;
-    text-align: center;
+header h1 {
+    font-size: 2rem;
 }
 
-.responsive-image {
-    width: 100%;
+.main-content {
+    text-align: center;
+    padding: 120px 20px 80px 20px;
+    background-color: #ffffff;
+}
+
+.intro {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.intro .name {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #007acc;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #007acc;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+.intro img {
+    max-width: 100%;
     height: auto;
-    max-width: 600px;
+    border-radius: 50%;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
 }

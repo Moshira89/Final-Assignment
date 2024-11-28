@@ -1,34 +1,53 @@
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.card {
-    width: 250px;
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+.services-container {
+    padding: 100px 20px 80px 20px;
+    background-color: #ffffff;
     text-align: center;
 }
 
-.card .icon {
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.service-card i {
     font-size: 3rem;
     color: #007acc;
     margin-bottom: 10px;
 }
 
-.card h3 {
-    font-size: 1.5rem;
+@media (max-width: 768px) {
+    .service-card {
+        width: 45%;
+    }
+
+    .service-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .service-card p {
+        font-size: 0.9rem;
+    }
 }
 
-.responsive-image {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    margin-top: 20px;
+@media (max-width: 480px) {
+    .service-card {
+        width: 100%;
+    }
 }
-
-
